@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1ccd2023b6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="img/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p> <span>W</span>eb <span>Dev</span>eloper</p>
+                <h1>Hi, i'm <span>Abhiraj</span><br> Singh From Lucknow</h1>
+            </div>
+        </div>
+    </div>
+<!-- -------------about-------- -->
+<div id="about"></div>
+<div class="container">
+    <div class="row">
+        <div class="about-col-1">
+            <img src="img/bg2.jpg" alt="">
+        </div>
+        <div class="about-col-2">
+            <h1 class="sub-tittle"> <span>A</span>bout <span>M</span>e</h1>
+            <p>My name is Abhiraj Singh. I am a 2rd year B.Tech Computer Science Engineering student at Dr shauntala Misra National Rehabilitation University. I consider myself a responsible and orderly person.I am looking forward for my first work experience.</p>
+
+            <div class="tab-title">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links"  onclick="opentab('Experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('Education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>UI/UX Design</span><br>"Hi there! I'm a versatile UI/UX designer driven by a love for creativity and visual storytelling.</li>
+                    <li><span>Web Design</span><br>"Hey there! I'm a web designer with a relentless passion for creating visually captivating and user-friendly websites.</li>
+                    <li><span>App Design</span><br> "Hey there! I'm a new in this skill. </li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="Experience">
+                <ul>
+                    <li><span>current</span><br>Web Design and App Design </li>
+                    <li><span>2022</span><br>HTML/CSS</li>
+                    <li><span>2023</span><br> UI/UX Design </li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="Education">
+                <ul>
+                    <li><span>2022</span><br>B.tech (CSE) </li>
+                    <li><span>2021-2022</span><br>12th </li>
+                    <li><span>2019-2020</span><br> 10th </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------Services------------------------- -->
+<div id="Services">
+    <div class="container">
+        <h1 class="sub-tittle"><span>M</span>y <span>Ser</span>vices</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web design</h2>
+                <p>"Hey there! I'm a web designer with a relentless passion for creating visually captivating and user-friendly websites. Combining artistic flair with technical expertise, I strive to deliver designs that leave a lasting impact. Let's bring your digital vision to life with creativity and innovation!"!</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>Their work includes collaborating with product managers and engineers to gather requirements from users before designing ideas that can be communicated using storyboards. They also process flows or sitemaps.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>
+                    "Hi there! I'm a versatile App designer driven by a love for creativity and visual storytelling. With a flair for colors, typography, and composition, I strive to communicate ideas through captivating visuals. Whether it's crafting brand identities or designing engaging graphics, I'm dedicated to delivering designs that make a lasting impression. Let's transform your ideas into captivating visuals that speak volumes!"</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+ <!-- --------------------Portfolio-------------------- -->
+
+ <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-tittle"><span>M</span>y  <span>W</span>ork</h1>
+        <div class="work-list">
+        <div class="work">
+            <img src="img/work-1.png" >
+            <div class="layer">
+                <h3>Calculator App</h3>
+                <p> "Hi there! I design Calculator App by using HTML, CSS & JAVASCRIPT. If you want to see and check please click the link below. </p>
+                <a href="https://github.com/AbhirajSingh123"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="img/work-2.png" >
+            <div class="layer">
+                <h3>Work on Python </h3>
+                <p>"Hi there! I design Calculator App by using Python. If you want to see and check please click the link below.</p>
+                <a href="https://github.com/AbhirajSingh123"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="img/work-3.png" >
+            <div class="layer">
+                <h3>Landing Page </h3>
+                <p>"Hi there! I design Landing Page by using HTML, CSS & JAVASCRIPT. If you want to see and check please click the link below. </p>
+                <a href="https://github.com/AbhirajSingh123"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        </div>
+        <a href="https://www.youtube.com/@abhirajsinghdsmnru" class="btn">See More</a>
+    </div>
+ </div>
+ <!-- -------------contact---------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title"><span>Con</span>tact <span>M</span>e</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i>abhiraj2004singh@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+917520424645</p>
+                <div class="Social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100019200906950"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/coach_abhiraj"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/abhiraj_singh_7318/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/abhiraj-singh-a1766a237/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="img/Resume-Abhiraj-Singh (1).pdf" class="btn btn2">Download resume</a>
+            </div>
+            <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="name" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message"  rows="7" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright © 2023. Made with <i class="fa-solid fa-heart"></i> By Abhiraj Singh</p>
+    </div>
+</div>
+
+
+
+
+
+<!-- ------------------script-------------------------- -->
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link"); 
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab"); 
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    
+</script>
+
+<!-- ----------------small screen script ---------------  -->
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+</script>
+
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzcXVjlqE-sMzmy-GdiI0iewmnPY0lemfOjAxBzEJDq79e31MIKb3a1insGVDC2OhoQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully Thank You ♡ "
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
